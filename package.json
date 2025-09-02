@@ -1,0 +1,42 @@
+{
+  "name": "use-smart-clipboard",
+  "version": "1.0.0",
+  "description": "A smart clipboard React hook with history and utilities.",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "test": "vitest"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "clipboard",
+    "copy",
+    "paste",
+    "history"
+  ],
+  "peerDependencies": {
+    "react": ">=17"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "tsup": "^7",
+    "vitest": "^1",
+    "@types/react": "^18"
+  },
+  "author": "Emerson Dalwampo",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sncrr/use-smart-clipboard.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sncrr/use-smart-clipboard/issues"
+  },
+  "homepage": "https://github.com/sncrr/use-smart-clipboard#readme"
+}
