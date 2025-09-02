@@ -1,6 +1,6 @@
 {
   "name": "use-smart-clipboard",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A smart clipboard React hook with history and utilities.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -18,7 +18,8 @@
     "clipboard",
     "copy",
     "paste",
-    "history"
+    "history",
+    "smart clipboard"
   ],
   "peerDependencies": {
     "react": ">=17"
