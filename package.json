@@ -16,10 +16,18 @@
     "react",
     "hooks",
     "clipboard",
+    "smart clipboard",
     "copy",
     "paste",
-    "history",
-    "smart clipboard"
+    "copy to clipboard",
+    "clipboard history",
+    "react clipboard",
+    "use clipboard",
+    "clipboard hook",
+    "copy paste",
+    "react hook clipboard",
+    "text copy",
+    "clipboard manager"
   ],
   "peerDependencies": {
     "react": ">=17"
